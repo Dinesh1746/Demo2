@@ -10,6 +10,7 @@ namespace Demo2
             Console.WriteLine("My nane is Dinesh!");
             Console.WriteLine(" My name is Reddy");
             Console.WriteLine(" My name is Reddy");
+            Console.WriteLine("  Hai Dinesh  ");
         }
     }
 }
