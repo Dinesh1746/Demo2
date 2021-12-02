@@ -6,11 +6,18 @@ namespace Demo2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("My nane is Dinesh!");
-            Console.WriteLine(" My name is Reddy");
-            Console.WriteLine("  Hai Dinesh  ");
-            Console.WriteLine("  Hai   ")
+            Console.Write("Enter a number: ");
+            int i = Convert.ToInt32(Console.ReadLine());
+            if (i % 2 == 0)
+            {
+                Console.WriteLine("it is even");
+            }
+            else
+            {
+                Console.WriteLine("It is odd");
+            }
+
+            
         }
     }
 }
